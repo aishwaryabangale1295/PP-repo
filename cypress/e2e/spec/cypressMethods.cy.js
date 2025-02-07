@@ -18,6 +18,7 @@ describe('test suite', function () {
         cy.pause();
         cy.screenshot({ clip: { x: 20, y: 20, width: 400, height: 300 } });
         cy.pause();
+        cy.wait(3000);
     })
 
     it('test case 19', function () {
